@@ -68,5 +68,20 @@
       "disciplinaId": 1,
       "ano": 2017
     }
+  ],
+  "usuarios":[
+    {
+      "id": 1,
+      "nome": "caramello",
+      "senha": 123
+    }
+  ],
+  "pessoas":[
+    {
+      "id": 1,
+      "nome": "Caramello",
+      "telefone": "63999771191",
+      "email": "caramellomari@gmail.com"
+    }
   ]
 }
