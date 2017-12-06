@@ -79,9 +79,11 @@
   "pessoas":[
     {
       "id": 1,
-      "nome": "Caramello",
-      "telefone": "63999771191",
-      "email": "caramellomari@gmail.com"
+      "codigo": "123mc",
+      "nome": "Mari Caramello"      
     }
   ]
 }
+  //public id: number,
+  //public codigo: string,
+ // public nome: string) 
