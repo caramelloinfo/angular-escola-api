@@ -71,47 +71,61 @@
   ],
   "pessoas": [
     {
-      "codigo": "114905910",
+      "cpf": "000.000.000-00",
       "nome": "Mari Caramello",
       "id": 1
     },
     {
-      "codigo": "201701",
+      "cpf": "000.000.000-00",
       "nome": "Marcos Mourão",
       "id": 2
     },
     {
-      "codigo": "201702",
+      "cpf": "000.000.000-00",
       "nome": "Jackson Gomes",
       "id": 3
     },
     {
-      "codigo": "201703",
+      "cpf": "000.000.000-00",
       "nome": "Fabiano Fagundes",
       "id": 4
+    },
+    {
+      "cpf": "000.000.000-00",
+      "nome": "Parcilene Fernandes Brito",
+      "id": 5
     }
   ],
   "funcionarios": [
     {
-      "codigo": "201701",
       "pessoaId": 2,
       "tipo": "Administrativo",
       "cargoId": 2,
       "id": 1
     },
     {
-      "codigo": "201701",
       "pessoaId": 1,
       "tipo": "Administrativo",
-      "cargoId": 4,
+      "cargoId": 3,
       "id": 2
     },
     {
-      "codigo": "201701",
       "pessoaId": 3,
       "tipo": "Docente",
       "cargoId": 5,
       "id": 3
+    },
+    {
+      "pessoaId": 4,
+      "tipo": "Docente",
+      "cargoId": 5,
+      "id": 4
+    },
+    {
+      "pessoaId": 5,
+      "tipo": "Docente",
+      "cargoId": 5,
+      "id": 5
     }
   ],
   "funcoes": [
