@@ -105,6 +105,13 @@
       "tipo": "Administrativo",
       "cargoId": 4,
       "id": 2
+    },
+    {
+      "codigo": "201701",
+      "pessoaId": 3,
+      "tipo": "Docente",
+      "cargoId": 5,
+      "id": 3
     }
   ],
   "funcoes": [
