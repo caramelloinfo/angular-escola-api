@@ -69,21 +69,85 @@
       "ano": 2017
     }
   ],
-  "usuarios":[
+  "pessoas": [
+    {
+      "codigo": "114905910",
+      "nome": "Mari Caramello",
+      "id": 1
+    },
+    {
+      "codigo": "201701",
+      "nome": "Marcos Mourão",
+      "id": 2
+    },
+    {
+      "codigo": "201702",
+      "nome": "Jackson Gomes",
+      "id": 3
+    },
+    {
+      "codigo": "201703",
+      "nome": "Fabiano Fagundes",
+      "id": 4
+    }
+  ],
+  "funcionarios": [
+    {
+      "codigo": "201701",
+      "pessoaId": 2,
+      "tipo": "Administrativo",
+      "cargoId": 2,
+      "id": 1
+    },
+    {
+      "codigo": "201701",
+      "pessoaId": 1,
+      "tipo": "Administrativo",
+      "cargoId": 4,
+      "id": 2
+    }
+  ],
+  "funcoes": [
+    {
+      "id": 1,
+      "nome": "Função 1"
+    },
+    {
+      "nome": "Função 2",
+      "id": 2
+    },
+    {
+      "nome": "Função 3",
+      "id": 3
+    }
+  ],
+  "cargos": [
+    {
+      "funcaoId": null,
+      "nome": "Cargo 2",
+      "id": 2
+    },
+    {
+      "funcaoId": null,
+      "nome": "Cargo 3",
+      "id": 3
+    },
+    {
+      "funcaoId": null,
+      "nome": "Cargo 4",
+      "id": 4
+    },
+    {
+      "funcaoId": null,
+      "nome": "Cargo 5",
+      "id": 5
+    }
+  ],
+  "usuarios": [
     {
       "id": 1,
       "nome": "caramello",
       "senha": 123
     }
-  ],
-  "pessoas":[
-    {
-      "id": 1,
-      "codigo": "123mc",
-      "nome": "Mari Caramello"      
-    }
   ]
 }
-  //public id: number,
-  //public codigo: string,
- // public nome: string) 
