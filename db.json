@@ -85,6 +85,12 @@
     {
       "id": 3,
       "nome": "Gaspar Lourenço"
+    },
+    {
+      "nome": "teste",
+      "presenca": null,
+      "falta": "0",
+      "id": 4
     }
   ],
   "matriculas": [
@@ -134,6 +140,13 @@
       "horarioId": 3,
       "data": "2017-12-06",
       "status": "P"
-    }    
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "caramello",
+      "senha": 123
+    }
   ]
 }
