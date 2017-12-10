@@ -140,6 +140,26 @@
       "horarioId": 3,
       "data": "2017-12-06",
       "status": "P"
+    },
+    {
+      "turmaId": "1",
+      "alunoId": "1",
+      "disciplinaId": "3",
+      "professorId": "2",
+      "horarioId": "3",
+      "data": "2017-03-01",
+      "status": "Falta",
+      "id": 2
+    },
+    {
+      "turmaId": "1",
+      "alunoId": "2",
+      "disciplinaId": "5",
+      "professorId": "1",
+      "horarioId": "1",
+      "data": "2017-12-09",
+      "status": "Presente",
+      "id": 3
     }
   ],
   "usuarios": [
