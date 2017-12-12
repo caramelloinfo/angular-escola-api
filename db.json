@@ -148,7 +148,7 @@
       "professorId": "2",
       "horarioId": "3",
       "data": "2017-03-01",
-      "status": "Falta",
+      "status": "F",
       "id": 2
     },
     {
@@ -158,8 +158,28 @@
       "professorId": "1",
       "horarioId": "1",
       "data": "2017-12-09",
-      "status": "Presente",
+      "status": "P",
       "id": 3
+    },
+    {
+      "turmaId": "1",
+      "alunoId": "3",
+      "disciplinaId": "2",
+      "professorId": "2",
+      "horarioId": "2",
+      "data": "2017-12-11",
+      "status": "P",
+      "id": 4
+    },
+    {
+      "turmaId": "1",
+      "alunoId": "1",
+      "disciplinaId": "1",
+      "professorId": "1",
+      "horarioId": "1",
+      "data": "2017-12-05",
+      "status": "P",
+      "id": 5
     }
   ],
   "usuarios": [
