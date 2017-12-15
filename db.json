@@ -2,173 +2,154 @@
   "disciplinas": [
     {
       "id": 1,
-      "codigo": "001",
-      "nome": "Português"
+      "nome": "Língua Portuguesa"
     },
     {
       "id": 2,
-      "codigo": "002",
       "nome": "Matemática"
     },
     {
       "id": 3,
-      "codigo": "003",
       "nome": "Geografia"
     },
     {
       "id": 4,
-      "codigo": "004",
       "nome": "História"
     },
     {
       "id": 5,
-      "codigo": "005",
       "nome": "Química"
-    },
-    {
-      "id": 6,
-      "codigo": "006",
-      "nome": "Física"
-    },
-    {
-      "codigo": "010",
-      "nome": "Filosofia",
-      "id": 7
-    },
-    {
-      "codigo": "011",
-      "nome": "Educação Física",
-      "id": 8
-    },
-    {
-      "codigo": "012",
-      "nome": "Educação Moral e Cívica",
-      "id": 9
-    },
-    {
-      "codigo": "013",
-      "nome": "Artes",
-      "id": 10
-    },
-    {
-      "codigo": "014",
-      "nome": "Música",
-      "id": 11
-    },
-    {
-      "codigo": "012",
-      "nome": "Teste",
-      "id": 12
     }
   ],
   "turmas": [
     {
       "id": 1,
-      "codigo": "001",
+      "ano": 2017,
+      "codigo": "F1A"
+    }
+  ],
+  "professors": [
+    {
+      "id": 1,
+      "nome": "Ana Emília Soares"
+    },
+    {
+      "id": 2,
+      "nome": "Rui Ernesto"
+    }
+  ],
+  "horarios": [
+    {
+      "id": 1,
+      "nome": "2M1"
+    },
+    {
+      "id": 2,
+      "nome": "2M2"
+    },
+    {
+      "id": 3,
+      "nome": "3M2"
+    }
+  ],
+  "professoresNasTurmas": [
+    {
+      "id": 1,
+      "turmaId": 1,
+      "professorId": 1,
       "disciplinaId": 1,
-      "ano": 2017
+      "horarios": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "turmaId": 1,
+      "professorId": 2,
+      "disciplinaId": 2,
+      "horarios": [
+        2,
+        3
+      ]
     }
   ],
-  "pessoas": [
+  "alunos": [
     {
-      "cpf": "000.000.000-00",
-      "nome": "Mari Caramello",
+      "id": 1,
+      "nome": "Maria Cecília Moraes"
+      },
+    {
+      "id": 2,
+      "nome": "Antônio Augusto Feitosa"
+      },
+    {
+      "id": 3,
+      "nome": "Gaspar Lourenço"
+    }
+  ],
+  "alunosNotas": [
+    {
+      "id": 1,
+      "nome": "Maria Cecília Moraes"
+    },
+    {
+      "id": 2,
+      "nome": "Antônio Augusto Feitosa"
+    },
+    {
+      "id": 3,
+      "nome": "Gaspar Lourenço"
+    }
+  ],
+  "matriculas": [
+    {
+      "id": 1,
+      "turmaId": 1,
+      "alunoId": 1
+    },
+    {
+      "id": 1,
+      "turmaId": 1,
+      "alunoId": 2
+    },
+    {
+      "id": 1,
+      "turmaId": 1,
+      "alunoId": 3
+    }
+  ],
+  "frequencias": [
+    {
+      "turmaId": 1,
+      "disciplinaId": 1,
+      "professorId": 2,
+      "horarioId": 2,
+      "alunoId": 2,
+      "data": "2017-12-11",
+      "status": "P",
       "id": 1
     },
     {
-      "cpf": "000.000.000-00",
-      "nome": "Marcos Mourão",
+      "turmaId": 1,
+      "disciplinaId": 2,
+      "professorId": 1,
+      "horarioId": 1,
+      "alunoId": 1,
+      "data": "2017-12-13",
+      "status": "F",
       "id": 2
-    },
-    {
-      "cpf": "000.000.000-00",
-      "nome": "Jackson Gomes",
-      "id": 3
-    },
-    {
-      "cpf": "000.000.000-00",
-      "nome": "Fabiano Fagundes",
-      "id": 4
-    },
-    {
-      "cpf": "000.000.000-00",
-      "nome": "Parcilene Fernandes Brito",
-      "id": 5
     }
   ],
-  "funcionarios": [
-    {
-      "pessoaId": 2,
-      "tipo": "Administrativo",
-      "cargoId": 2,
-      "id": 1
-    },
-    {
-      "pessoaId": 1,
-      "tipo": "Administrativo",
-      "cargoId": 3,
-      "id": 2
-    },
-    {
-      "pessoaId": 3,
-      "tipo": "Docente",
-      "cargoId": 5,
-      "id": 3
-    },
-    {
-      "pessoaId": 4,
-      "tipo": "Docente",
-      "cargoId": 5,
-      "id": 4
-    },
-    {
-      "pessoaId": 5,
-      "tipo": "Docente",
-      "cargoId": 5,
-      "id": 5
-    }
-  ],
-  "funcoes": [
+  "notas": [
     {
       "id": 1,
-      "nome": "Função 1"
-    },
-    {
-      "nome": "Função 2",
-      "id": 2
-    },
-    {
-      "nome": "Função 3",
-      "id": 3
-    }
-  ],
-  "cargos": [
-    {
-      "funcaoId": null,
-      "nome": "Cargo 2",
-      "id": 2
-    },
-    {
-      "funcaoId": null,
-      "nome": "Cargo 3",
-      "id": 3
-    },
-    {
-      "funcaoId": null,
-      "nome": "Cargo 4",
-      "id": 4
-    },
-    {
-      "funcaoId": null,
-      "nome": "Cargo 5",
-      "id": 5
-    }
-  ],
-  "usuarios": [
-    {
-      "id": 1,
-      "nome": "caramello",
-      "senha": 123
+      "turmaId": 1,
+      "alunoId": 1,
+      "disciplinaId": 2,
+      "nota1": 7,
+      "nota2": 8,
+      "nota3": 9,
+      "nota4": 8.5
     }
   ]
 }
