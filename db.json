@@ -1,26 +1,4 @@
 {
-  "disciplinas": [
-    {
-      "id": 1,
-      "nome": "Língua Portuguesa"
-    },
-    {
-      "id": 2,
-      "nome": "Matemática"
-    },
-    {
-      "id": 3,
-      "nome": "Geografia"
-    },
-    {
-      "id": 4,
-      "nome": "História"
-    },
-    {
-      "id": 5,
-      "nome": "Química"
-    }
-  ],
   "turmas": [
     {
       "id": 1,
@@ -28,66 +6,7 @@
       "codigo": "F1A"
     }
   ],
-  "professors": [
-    {
-      "id": 1,
-      "nome": "Ana Emília Soares"
-    },
-    {
-      "id": 2,
-      "nome": "Rui Ernesto"
-    }
-  ],
-  "horarios": [
-    {
-      "id": 1,
-      "nome": "2M1"
-    },
-    {
-      "id": 2,
-      "nome": "2M2"
-    },
-    {
-      "id": 3,
-      "nome": "3M2"
-    }
-  ],
-  "professoresNasTurmas": [
-    {
-      "id": 1,
-      "turmaId": 1,
-      "professorId": 1,
-      "disciplinaId": 1,
-      "horarios": [
-        1
-      ]
-    },
-    {
-      "id": 2,
-      "turmaId": 1,
-      "professorId": 2,
-      "disciplinaId": 2,
-      "horarios": [
-        2,
-        3
-      ]
-    }
-  ],
   "alunos": [
-    {
-      "id": 1,
-      "nome": "Maria Cecília Moraes"
-      },
-    {
-      "id": 2,
-      "nome": "Antônio Augusto Feitosa"
-      },
-    {
-      "id": 3,
-      "nome": "Gaspar Lourenço"
-    }
-  ],
-  "alunosNotas": [
     {
       "id": 1,
       "nome": "Maria Cecília Moraes"
@@ -105,51 +24,104 @@
     {
       "id": 1,
       "turmaId": 1,
-      "alunoId": 1
+      "alunoId": 1,
+      "situacao": "AM"
     },
     {
       "id": 1,
       "turmaId": 1,
-      "alunoId": 2
-    },
-    {
-      "id": 1,
-      "turmaId": 1,
-      "alunoId": 3
-    }
-  ],
-  "frequencias": [
-    {
-      "turmaId": 1,
-      "disciplinaId": 1,
-      "professorId": 2,
-      "horarioId": 2,
       "alunoId": 2,
-      "data": "2017-12-11",
-      "status": "P",
-      "id": 1
+      "situacao": "AM"
     },
-    {
-      "turmaId": 1,
-      "disciplinaId": 2,
-      "professorId": 1,
-      "horarioId": 1,
-      "alunoId": 1,
-      "data": "2017-12-13",
-      "status": "F",
-      "id": 2
-    }
-  ],
-  "notas": [
     {
       "id": 1,
       "turmaId": 1,
-      "alunoId": 1,
-      "disciplinaId": 2,
-      "nota1": 7,
-      "nota2": 8,
-      "nota3": 9,
-      "nota4": 8.5
+      "alunoId": 3,
+      "situacao": "AM"
+    },
+    {
+      "alunoId": [
+        {
+          "id": 1,
+          "nome": "Maria Cecília Moraes"
+        },
+        {
+          "id": 2,
+          "nome": "Antônio Augusto Feitosa"
+        },
+        {
+          "id": 3,
+          "nome": "Gaspar Lourenço"
+        }
+      ],
+      "turmaId": "1",
+      "id": 2
+    },
+    {
+      "alunoId": [
+        {
+          "id": 1,
+          "nome": "Maria Cecília Moraes"
+        },
+        {
+          "id": 2,
+          "nome": "Antônio Augusto Feitosa"
+        },
+        {
+          "id": 3,
+          "nome": "Gaspar Lourenço"
+        }
+      ],
+      "turmaId": "1",
+      "id": 3
+    },
+    {
+      "alunoId": [
+        {
+          "id": 1,
+          "nome": "Maria Cecília Moraes"
+        },
+        {
+          "id": 2,
+          "nome": "Antônio Augusto Feitosa"
+        },
+        {
+          "id": 3,
+          "nome": "Gaspar Lourenço"
+        }
+      ],
+      "turmaId": [
+        {
+          "id": 1,
+          "ano": 2017,
+          "codigo": "F1A"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "alunoId": "1",
+      "turmaId": "1",
+      "situacao": null,
+      "id": 5
+    },
+    {
+      "alunoId": "1",
+      "turmaId": "3",
+      "situacao": null,
+      "id": 6
+    },
+    {
+      "alunoId": "1",
+      "turmaId": "1",
+      "situacao": null,
+      "id": 7
+    },
+    {
+      "alunoId": "1",
+      "turmaId": "1",
+      "situacao": null,
+      "id": 8
     }
   ]
 }
